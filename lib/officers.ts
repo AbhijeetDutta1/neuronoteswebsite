@@ -40,6 +40,31 @@ export const officers: Officer[] = [
     image: "/images/officers/christine-safri.jpg",
   },
   {
+    id: 5,
+    name: "Georgia Matthews",
+    role: "Social Media Co-Chair",
+    studies: "3rd year Molecular and Cellular Biology Major",
+    bio: [
+      "As the co-social media/marketing officer for the club, my duties include creating posts for our social media platforms to promote our recitals and meetings, and to keep our online community informed and updated on how our club is striving to make a difference and how people can get involved.",
+      "I am in the club because I am passionate about bringing people in all parts of our community, from students to seniors, together through music. I am driven to make a difference and raise awareness in the ongoing fight against Alzheimer’s, other neurodegenerative diseases, and mental health in general!",
+      "My passions include being out in nature: going for walks, hiking or simply going to the beach. I’m also passionate about music; I play classical guitar, enjoy going to concerts, and listening to music while crafting.",
+    ],
+    image: "/images/officers/georgia-matthews.jpg",
+  },
+  {
+    id: 6,
+    name: "Zoe Harradine",
+    role: "Social Media Co-Chair",
+    studies: "3rd year Biology Major",
+    track: "Pre-Nursing",
+    bio: [
+      "As Social Media Co-Chair for NeuroNotes, I create engaging content for our Instagram and TikTok to promote our events, including recitals, meetings, band performances, and more. I love finding creative ways to keep our community connected, share what NeuroNotes is all about, and get students excited to participate in our events.",
+      "I joined NeuroNotes because my great-grandfather passed away from Alzheimer's disease, making the club's mission especially meaningful to me. I believe NeuroNotes is a wonderful way to support Alzheimer's research while spreading awareness throughout the UCSB and Isla Vista communities. I also believe music has a unique ability to bring people together and evoke meaningful memories, making it such an important part of our lives.",
+      "Outside of NeuroNotes, I enjoy making matcha, cooking new recipes, playing soccer, hiking, and going to concerts.",
+    ],
+    image: "/images/officers/zoe-harradine.jpg",
+  },
+  {
     id: 3,
     name: "Dominic Grizelj",
     role: "Treasurer",
@@ -64,30 +89,5 @@ export const officers: Officer[] = [
       "Outside of the club, I play guitar in a band in Isla Vista, and I enjoy reading and knitting.",
     ],
     image: "/images/officers/jacob-gouker.jpg",
-  },
-  {
-    id: 5,
-    name: "Georgia Matthews",
-    role: "Social Media Co-Chair",
-    studies: "3rd year Molecular and Cellular Biology Major",
-    bio: [
-      "As the co-social media/marketing officer for the club, my duties include creating posts for our social media platforms to promote our recitals and meetings, and to keep our online community informed and updated on how our club is striving to make a difference and how people can get involved.",
-      "I am in the club because I am passionate about bringing people in all parts of our community, from students to seniors, together through music. I am driven to make a difference and raise awareness in the ongoing fight against Alzheimer’s, other neurodegenerative diseases, and mental health in general!",
-      "My passions include being out in nature: going for walks, hiking or simply going to the beach. I’m also passionate about music; I play classical guitar, enjoy going to concerts, and listening to music while crafting.",
-    ],
-    image: "/images/officers/georgia-matthews.jpg",
-  },
-  {
-    id: 6,
-    name: "Zoe Harradine",
-    role: "Social Media Co-Chair",
-    studies: "3rd year Biology Major",
-    track: "Pre-Nursing",
-    bio: [
-      "As Social Media Co-Chair for NeuroNotes, I create engaging content for our Instagram and TikTok to promote our events, including recitals, meetings, band performances, and more. I love finding creative ways to keep our community connected, share what NeuroNotes is all about, and get students excited to participate in our events.",
-      "I joined NeuroNotes because my great-grandfather passed away from Alzheimer's disease, making the club's mission especially meaningful to me. I believe NeuroNotes is a wonderful way to support Alzheimer's research while spreading awareness throughout the UCSB and Isla Vista communities. I also believe music has a unique ability to bring people together and evoke meaningful memories, making it such an important part of our lives.",
-      "Outside of NeuroNotes, I enjoy making matcha, cooking new recipes, playing soccer, hiking, and going to concerts.",
-    ],
-    image: "/images/officers/zoe-harradine.jpg",
   },
 ];
