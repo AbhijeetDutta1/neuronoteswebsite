@@ -1,4 +1,3 @@
-// TODO: placeholder links (Instagram) — replace with the club's real ones.
 export const site = {
   description:
     "NeuroNotes uses the power of music to connect generations, bring joy to senior communities, and raise awareness about Alzheimer's disease. We aim to create meaningful moments, foster connection, and remind every person that their story matters.",
@@ -6,7 +5,7 @@ export const site = {
   logo: "/images/logo.png" as string | undefined,
   email: "neuronotesorg@gmail.com",
   socials: [
-    { label: "Instagram", href: "#" },
+    { label: "Instagram", href: "https://www.instagram.com/ucsb_neuronotes/" },
     { label: "Email", href: "mailto:neuronotesorg@gmail.com" },
   ],
 };
