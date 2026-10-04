@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #283a48;
+  background: #68a3bb;
+}
+
+/* Striped box shown until real images are added */
+.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: repeating-linear-gradient(45deg, #dcebf1, #dcebf1 10px, #cbe1ea 10px, #cbe1ea 20px);
+  border: 2px dashed #283a48;
+  color: #3a5566;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: #283a48 transparent;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease both;
+}
