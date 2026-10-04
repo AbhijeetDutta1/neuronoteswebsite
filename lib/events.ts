@@ -15,7 +15,7 @@ export interface ClubEvent {
 // Usual times and places for recurring events
 export const MEETING = { time: "7:00 – 8:00 PM", location: "Phelps Hall 1444" };
 export const RECITAL = { time: "6:30 – 7:30 PM", location: "Friendship Manor, Isla Vista" };
-export const BAND_SHOW = { time: "9:00 PM – 12:00 AM" };
+export const BAND_SHOW = { time: "9:00 PM – 12:00 AM", location: "6732 Del Playa" };
 
 export const events: ClubEvent[] = [
   {
@@ -23,12 +23,14 @@ export const events: ClubEvent[] = [
     title: "Alzheimer’s Walk",
     date: "2026-11-14",
     location: "Chase Palm Park",
+    image: "/images/events/alzheimers-walk-2026.jpg",
   },
   {
     id: 1,
-    title: "Bandshow",
+    title: "Band Show Fundraiser for Alzheimer’s Awareness",
     date: "2026-11-07",
     ...BAND_SHOW,
+    image: "/images/events/bandshow.jpg",
   },
   {
     id: 2,
@@ -42,6 +44,7 @@ export const events: ClubEvent[] = [
     date: "2026-10-12",
     ...MEETING,
     description: "Every other Monday. Come meet the club and hear what's coming up!",
+    image: "/images/events/general-meeting.jpg",
   },
   {
     id: 6,
@@ -55,7 +58,6 @@ export const events: ClubEvent[] = [
     title: "Band Show Fundraiser for Alzheimer’s Awareness",
     date: "2026-09-26",
     ...BAND_SHOW,
-    location: "UCSB Rugby House, Del Playa",
     image: "/images/events/band-show-fundraiser-sept-26.jpg",
   },
   {

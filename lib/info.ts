@@ -29,8 +29,8 @@ export const infoCards: InfoCard[] = [
     id: 3,
     icon: Guitar,
     label: "Upcoming Event",
-    title: "Bandshow",
-    details: [`Saturday, Nov 7, 2026 · ${BAND_SHOW.time}`],
+    title: "Band Show Fundraiser for Alzheimer’s Awareness",
+    details: [`Saturday, Nov 7, 2026 · ${BAND_SHOW.time}`, BAND_SHOW.location],
   },
   {
     id: 4,
