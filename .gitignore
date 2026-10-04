@@ -1,0 +1,66 @@
+# dependencies
+/node_modules
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+/dist
+
+# env files / secrets / credentials
+.env
+.env.*
+!.env.*.example
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
+credentials.json
+secrets.json
+*.secrets
+
+# misc
+.DS_Store
+*.pid
+*.seed
+*.pid.lock
+
+# debug / logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs
+*.log
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# testing / coverage
+/coverage
+
+# vercel
+.vercel
+
+# editor / IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.swp
+*.swo
+*~
+
+# screenshots / temp verification assets (never commit these)
+*.png
+*.jpg
+*.jpeg
+!public/**/*.png
+!public/**/*.jpg
+!public/**/*.jpeg
