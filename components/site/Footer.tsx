@@ -8,7 +8,12 @@ export default function Footer() {
         {site.socials.map((social, i) => (
           <span key={social.label}>
             {i > 0 && " · "}
-            <a href={social.href} className="hover:text-white">
+            <a
+              href={social.href}
+              className="hover:text-white"
+              // Open external sites (like Instagram) in a new tab; leave mailto links alone
+              {...(social.href.startsWith("http") && { target: "_blank", rel: "noopener noreferrer" })}
+            >
               {social.label}
             </a>
           </span>
