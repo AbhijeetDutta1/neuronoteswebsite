@@ -37,6 +37,7 @@ export const events: ClubEvent[] = [
     title: "Senior Home Recital",
     date: "2026-10-24",
     ...RECITAL,
+    image: "/images/events/senior-home-recital.jpg",
   },
   {
     id: 3,
