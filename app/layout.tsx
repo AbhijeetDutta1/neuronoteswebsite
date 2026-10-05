@@ -19,6 +19,10 @@ const archivoBlack = Archivo_Black({
 export const metadata: Metadata = {
   title: "NeuroNotes at UCSB",
   description: "NeuroNotes at UCSB: making memories through music.",
+  icons: {
+    icon: "/icon.png",
+    apple: "/icon.png",
+  },
 };
 
 export default function RootLayout({
